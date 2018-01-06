@@ -6,6 +6,7 @@ def alphabetize(arr)
 
   #take the arr sort by (each element by this rule)
   arr.sort_by do |w|
+    binding.pry
     #rule = create char array and get your index number from the alphabet
     w.chars.map {|c| esp_alphabet_arr.index(c)}
   end
