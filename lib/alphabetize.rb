@@ -8,7 +8,7 @@ def alphabetize(arr)
   organized = arr.sort_by do |w|
     binding.pry
     #rule = create char array and get your index number from the alphabet
-    w.chars.map do |c|
+    index_num_arr = w.chars.map do |c|
       binding.pry
       esp_alphabet_arr.index(c)
     end
