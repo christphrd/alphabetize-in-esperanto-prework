@@ -1,6 +1,5 @@
 require "pry"
 
 def alphabetize(arr)
-  "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by {|w| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"}
+  organized_arr = arr.sort_by {|w| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"}
 end
