@@ -1,5 +1,7 @@
 require "pry"
 
 def alphabetize(arr)
-  arr.sort_by! {|w| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"}
+  binding.pry
+  organized = arr.sort_by! {|w| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"}
+  binding.pry
 end
