@@ -1,5 +1,6 @@
 require "pry"
 
 def alphabetize(arr)
-  organized = arr.sort_by! {|w| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"}
+  Esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  organized = arr.sort_by! {|Esperanto_alphabet| w}
 end
