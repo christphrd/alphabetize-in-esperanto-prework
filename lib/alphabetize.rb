@@ -9,5 +9,6 @@ def alphabetize(arr)
     binding.pry
     #rule = create char array and get your index number from the alphabet
     w.chars.map {|c| esp_alphabet_arr.index(c)}
+    binding.pry
   end
 end
